@@ -1,0 +1,79 @@
+.product-card {
+  background-color: white;
+  margin: auto 2px;
+}
+
+.product-card .pd-group {
+  padding: 4px 12px;
+}
+
+.product-card .pd-group .pd-info-list {
+  font-size: 20px;
+  margin: 1px;
+  -ms-flex-item-align: auto;
+      align-self: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1px 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-card .pd-group .pd-info-list small {
+  font-size: 16px;
+  padding: 2px;
+  position: relative;
+  top: -5px;
+  font-style: italic;
+}
+
+.product-card .pd-group .pd-info-list svg {
+  margin: auto 15px;
+}
+
+.product-card .product-legend {
+  font-size: 20px;
+}
+
+.product-card .pd-price {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.product-card .pd-price .discount {
+  float: left;
+  font-weight: 700;
+  text-decoration: line-through;
+  color: red;
+}
+
+.product-card .pd-price .cost {
+  float: right;
+}
+
+.product-card .btn-primary-square {
+  width: 100%;
+  color: #222000;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+}
+
+.product-card .btn-primary-square:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.product-card .btn-primary-square:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+/*# sourceMappingURL=product.css.map */
