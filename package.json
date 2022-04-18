@@ -1,0 +1,20 @@
+{
+    "name": "petshop",
+    "version": "1.0.0",
+    "description": "Practice, practice and never get tired of practicing.",
+    "scripts": {
+        "server": "npm run dev --prefix server",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^6.2.1"
+    },
+    "dependencies": {
+        "prompt-sync": "^4.2.0"
+    }
+}
